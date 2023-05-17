@@ -15,8 +15,8 @@ black="23.3.0"
 
 [tool.robocorp.log]
 log_filter_rules = [
-    {name = "playwright", kind = "log_on_project_call"},
-    {name = "robocorp.browser", kind = "log_on_project_call"},
+    {name = "playwright", kind = "full_log"},
+    {name = "robocorp.browser", kind = "full_log"},
     {name = "robocorp.excel", kind = "log_on_project_call"},
     {name = "robocorp.http", kind = "log_on_project_call"},
 ]
