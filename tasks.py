@@ -9,7 +9,7 @@ def solve_challenge():
         slowmo=100,
         browser_engine="chrome",
         screenshot="only-on-failure",
-        headless=False,
+        headless=True,
     )
 
     http.download("http://rpachallenge.com/assets/downloadFiles/challenge.xlsx")
