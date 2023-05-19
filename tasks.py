@@ -7,7 +7,7 @@ def solve_challenge():
     """Solve the RPA challenge"""
     browser.configure(
         slowmo=100,
-        browser_engine="chrome",
+        browser_engine="firefox",
         screenshot="only-on-failure",
         headless=True,
     )
